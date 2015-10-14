@@ -32,6 +32,7 @@ Theme Wordpress "Material Design" Based on Google Material design
 - Auto crop featured image
 - Share button
 - Design material
+
 #### 1.2
 - Sidebar left and right
 - Widget in left sidebar
