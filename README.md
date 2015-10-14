@@ -38,6 +38,7 @@ Theme Wordpress "Material Design" Based on Google Material design
 - Widget in left sidebar
 - Breadchrumb
 - Avatar administrator in front page and right sidebar 
+- Modify layout and design
 
 ## Screenshot
 
