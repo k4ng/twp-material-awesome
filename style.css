@@ -1,0 +1,99 @@
+/*
+Theme Name: CDO material design
+Theme URI: http://code.dokumentasi.org
+Author: Kang Cahya
+Author URI: http://kang-cahya.com/
+Description: CDO (CODE DOKUMENTASI ORG) material design theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: CODE.DOKUMENTASI.RG
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.front-page{
+	background-color: #3949ab;
+	color:#FFFFFF;
+	padding-top:100px;
+}
+/****widget****/
+.widget { 
+	list-style:none;
+}
+
+.widgettitle{
+	line-height: 0px;
+	padding-bottom: 5px;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.widget_recent_comments{ }
+
+.recentcomments{
+	color:#FFFFFF;
+}
+
+span .comment-author-link{
+	font-weight:bold;
+}
+
+.recentcomments a{
+	color:#ffffff;
+}
+
+.menu .menu-item{ }
+
+input#submit{
+	background:none;
+	border:none;
+}
+
+textarea#comment{}
+
+span.front-avatar img.avatar{
+	border-radius:50%;
+	height:100px;
+	width:100px;
+}
+
+/**** COMMENTS ***/
+.comment-author{
+	text-align: center;
+	float: left;
+	clear: both;
+	padding:10px;
+	margin-right: 10px;
+	border-right: 1px solid #ff4081;
+}
+
+.comment-list, .children { 
+	list-style:none;
+}
+
+div.comment-body{
+	padding: 20px;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+}
+
+/**** FOOTER ***/
+footer.footer{
+	background: #FFFFFF;
+}
+
+/**** HEADER ***/
+div.sidebar_left{
+	padding-left: 25px;
+}
+
+/*** SINGLE PAGE ***/
+.wp-post-image{
+	float: left;
+	padding-right : 20px;\
+	clear: both;
+}
