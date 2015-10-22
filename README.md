@@ -1,4 +1,4 @@
-# theme-wp-material-awesome
+# theme-wp-material-awesome (Kang)
 Theme Wordpress "Material Design" Based on Google Material design
 
 - https://design.google.com
