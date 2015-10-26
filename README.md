@@ -27,18 +27,7 @@ Theme Wordpress "Material Design" Based on Google Material design
 - Save, finish.
 
 ## Change Log
-#### 1.2 (latest version)
-- Sidebar left and right
-- Widget in left sidebar
-- Breadchrumb
-- Avatar administrator in front page and right sidebar 
-- Modify layout and design
-
-#### 1.0
-- Featured image
-- Auto crop featured image
-- Share button
-- Design material
+[Open Changelog](CHANGELOG.md)
 
 ## Screenshot
 
