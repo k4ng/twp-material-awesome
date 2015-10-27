@@ -1,7 +1,9 @@
-#### 1.3 (on progress)
-- .....
-- .....
-- ....
+#### 1.3 BETA (27 october 2015)
+###### Post Format
+- Aside
+- Link
+- image
+- quote
 
 #### 1.2 (18 october 2015)
 - Sidebar left and right
