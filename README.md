@@ -4,22 +4,6 @@ Theme Wordpress "Material Design" Based on Google Material design
 - https://design.google.com
 - http://daemonite.github.io/material/
 
-## Theme Support
-#### Post Format
-- Stardard
-- Aside (comming soon)
-- Gallery (comming soon)
-- Link (comming soon)
-- Image (comming soon)
-- Quote (comming soon)
-- Status (comming soon)
-- Video (comming soon)
-- Audio (comming soon)
-
-#### post thumbnail
-- featured image
-- Auto crop
-
 ## Configuration
 - On menu Settings -> in the "reading" you select option "A static page (select below)" in the "Front page displays"
 - For the "Front Page" select menu home
