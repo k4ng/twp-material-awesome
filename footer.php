@@ -1,4 +1,4 @@
-	<footer class="footer">
+	<footer class="footer"> 
 		<div class="container">
 			<p>
 				<a href="http://kang-cahya.com" rel="dofollow">Cahya Dyazin</a> . 
