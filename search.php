@@ -6,19 +6,34 @@
 				<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
 					<form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
 						<div class="media">
+<<<<<<< HEAD
+							<div class="media-object pull-right">
+								<button type="submit" class="btn btn-brand-accent">&nbsp;<span class="icon">search</span>&nbsp;</button>
+							</div>
+							<div class="media-inner">
+								<input class="form-control searchbar" type="search" value="<?php echo get_search_query() ?>" name="s" style="color:#FFF;">
+=======
 							<div class="media-object pull-left">
 								<label class="form-icon-label"><span class="icon">search</span></label>
 							</div>
 							<div class="media-inner">
 								<input class="form-control" type="search" placeholder="Entry keyword..." value="<?php echo get_search_query() ?>" name="s" style="color:#FFFFFF;">
+>>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 							</div>
 						</div>
 					</form>
 				</div>
 			</div>
+<<<<<<< HEAD
+		</div> 
+	</div>
+	<div class="container">
+
+=======
 		</div>
 	</div>
 	<div class="container">
+>>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 		<div class="card-wrap">
 			<div class="row">
 				<?php
@@ -39,6 +54,11 @@
 					<?php
 						while( have_posts() ){ the_post();
 							if($post->post_type == "page") continue;
+<<<<<<< HEAD
+							get_template_part('content', get_post_format());
+						}
+			 		?>
+=======
 							get_template_part('content');
 						}
 			 		?>
@@ -51,6 +71,7 @@
 							<span class="pull-right"><?php next_posts_link(); ?></span>
 						</div>
 					</div>
+>>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 				<?php } else { ?>
 					<div class="container" style="text-align:center;">
 						<p><i class="mdi-action-room"></i> Not Found</p>
