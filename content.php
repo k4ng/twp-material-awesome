@@ -1,4 +1,4 @@
-<?php if( is_single() ){?>
+<?php if( is_single() ){?> 
 	<div class="content">
 		<div class="content-heading">
 			<div class="container">
