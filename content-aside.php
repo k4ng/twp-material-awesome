@@ -23,7 +23,7 @@
 					</p>
 				</div>
 			</div>
-		</div>
+		</div> 
 		<div aria-hidden="true" class="modal fade" id="modal<?php echo get_the_ID();?>" role="dialog" tabindex="-1">
 			<div class="modal-dialog">
 				<div class="modal-content">
