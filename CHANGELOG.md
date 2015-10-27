@@ -1,9 +1,10 @@
 #### 1.3 BETA (27 october 2015)
-###### Post Format
-- Aside
-- Link
-- image
-- quote
+- Post Format aside
+- Post Format link
+- Post Format image
+- Post Format quote
+- error 404
+- modify blog page
 
 #### 1.2 (18 october 2015)
 - Sidebar left and right
