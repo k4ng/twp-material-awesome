@@ -2,7 +2,7 @@
 Theme Wordpress "Material Design" Based on Google Material design
 
 - https://design.google.com
-- http://daemonite.github.io/material/
+- http://daemonite.github.io/material
 
 ## Configuration
 - On menu Settings -> in the "reading" you select option "A static page (select below)" in the "Front page displays"
@@ -14,4 +14,4 @@ Theme Wordpress "Material Design" Based on Google Material design
 [Open Changelog](CHANGELOG.md)
 
 ## Demo
-http://wp-theme.dokumentasi.my.id/
+http://wp-theme.dokumentasi.my.id
