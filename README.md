@@ -10,8 +10,9 @@ Theme Wordpress "Material Design" Based on Google Material design
 - For "Posts page" menu select the blog
 - Save, finish.
 
+## Demo
+http://wp-theme.dokumentasi.my.id
+
 ## Change Log
 [Open Changelog](CHANGELOG.md)
 
-## Demo
-http://wp-theme.dokumentasi.my.id
