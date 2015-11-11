@@ -11,7 +11,7 @@ Theme Wordpress "Material Design" Based on Google Material design
 - Save, finish.
 
 ## Demo
-http://wp-theme.dokumentasi.my.id
+[Open Demo](http://wp-theme.dokumentasi.my.id)
 
 ## Change Log
 [Open Changelog](CHANGELOG.md)
