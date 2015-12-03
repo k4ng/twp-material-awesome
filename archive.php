@@ -9,11 +9,11 @@
 							if( is_single() || is_page() ){ 
 								the_title(); 
 							} else if( is_category() ){
-								single_cat_title();
+								echo "* "; single_cat_title();
 							} else if( is_author() ){
-								echo get_the_author(); 
+								echo "<span class='author-avatar'>".get_avatar(get_the_author_meta('ID'))."</span><sub>".count_user_posts(get_the_author_meta('ID'))." Post</sub>";
 							} else if( is_tag() ){
-								single_tag_title();
+								echo "# "; single_tag_title();
 							} else {
 								bloginfo("name");
 							}
@@ -61,7 +61,7 @@
 
 				<?php
 					while( have_posts() ){ the_post();
-						get_template_part('content');
+						get_template_part('content', get_post_format());
 					}
 		 		?>
 				<div class="row">

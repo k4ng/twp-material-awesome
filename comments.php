@@ -44,13 +44,13 @@
 	<?php
 		$args_comment = array(
 			'fields' => apply_filters( 'comment_form_default_fields', array(
-    			'author' => '<div class="row"><div class="col-md-4">' . __( 'Your Name' ) . '' . ( $req ? ' <span>*</span>' : '' ) . '<input id="author" name="author" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author'] ) . '" "' . $aria_req . ' />' . '</div>',
+    			'author' => '<div class="row"><div class="col-md-4">' . __( 'Your Name' ) . '' . ( $req ? ' <span>*</span>' : '' ) . '<input id="author" name="author" type="text" placeholder="Name..." class="form-control" value="' . esc_attr( $commenter['comment_author'] ) . '" "' . $aria_req . ' />' . '</div>',
 
-    			'email'  => '<div class="col-md-4">' . __( 'Your Email' ) . '' . ( $req ? ' <span>*</span>' : '' ) . '<input id="email" name="email" type="text" class="form-control" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />' . '</div>',
+    			'email'  => '<div class="col-md-4">' . __( 'Your Email' ) . '' . ( $req ? ' <span>*</span>' : '' ) . '<input id="email" name="email" type="text" class="form-control" placeholder="Email..." value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' />' . '</div>',
     
-    			'url' => '<div class="col-md-4">' . __( 'Web / Blog', 'domainreference' ) . '' . '<input id="url" name="url" type="text" class="form-control" value="' . esc_attr( $commenter['comment_author_url'] ) . '" /> </div></div>') ),
+    			'url' => '<div class="col-md-4">' . __( 'Web / Blog', 'domainreference' ) . '' . '<input id="url" name="url" type="text" class="form-control" placeholder="Url..." value="' . esc_attr( $commenter['comment_author_url'] ) . '" /> </div></div>') ),
 
-			'comment_field' => '<div class="row"><div class="col-md-12">' . _x( 'Comment', 'noun' ) . '<textarea id="comment" class="form-control" name="comment" aria-required="true" rows="3"></textarea></div></div>',
+			'comment_field' => '<div class="row"><div class="col-md-12">' . _x( 'Comment', 'noun' ) . '<textarea id="comment" placeholder="Comments..." class="form-control" name="comment" aria-required="true" rows="3"></textarea></div></div>',
 
 			'comment_notes_before' => '<div class="alert alert-danger">' . __( 'Your email address will not be published.' ) . ( $req ? $required_text : '' ) . '</div>',
 

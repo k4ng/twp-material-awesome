@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-	<title><?php bloginfo('description'); ?> — <?php bloginfo('name');?></title>
+	<title>Error 404 — <?php bloginfo('name');?></title>
 	<?php wp_head();?>
 </head>
 <body class="front-page">
@@ -11,8 +11,7 @@
 		<div class="row" align="center">
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
-				<span class="front-avatar"><?php echo get_avatar( 1 ); ?></span>
-				<h3 class="title-front"><?php echo get_the_author_meta("nickname", 1);?></h3>
+				<h1 style="color:#ff4081;">Error 404</h1>
 				<form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
 					<div class="media">
 						<div class="media-object pull-right">
@@ -23,7 +22,7 @@
 						</div>
 					</div>
 				</form>
-				<p><a href="<?php echo home_url('/blog');?>">Go To Blog</a></p>
+				<p><a href="<?php echo home_url('/');?>">&laquo; Back To Home</a></p>
 			</div>
 			<div class="col-md-3"></div>
 		</div>
