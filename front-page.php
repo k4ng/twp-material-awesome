@@ -12,7 +12,6 @@
 			<div class="col-md-3"></div>
 			<div class="col-md-6">
 				<span class="front-avatar"><?php echo get_avatar( 1 ); ?></span>
-<<<<<<< HEAD
 				<h3 class="title-front"><?php echo get_the_author_meta("nickname", 1);?></h3>
 				<form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
 					<div class="media">
@@ -25,20 +24,6 @@
 					</div>
 				</form>
 				<p><a href="<?php echo home_url('/blog');?>">Go To Blog</a></p>
-=======
-				<h3><?php echo get_the_author_meta("nickname", 1);?></h3>
-				<form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
-					<div class="media">
-						<div class="media-object pull-left">
-							<label class="form-icon-label"><span class="icon">search</span></label>
-						</div>
-						<div class="media-inner">
-							<input class="form-control" type="search" placeholder="Search my archive..." value="<?php echo get_search_query() ?>" name="s" style="color:#FFF;">
-						</div>
-					</div>
-				</form>
-				<p><a href="<?php echo home_url('/blog');?>" class="btn btn-brand-accent">Go To Blog</a></p>
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 			</div>
 			<div class="col-md-3"></div>
 		</div>

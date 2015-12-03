@@ -2,11 +2,7 @@
 		<div class="container">
 			<p>
 				<a href="http://kang-cahya.com" rel="dofollow">Cahya Dyazin</a> . 
-<<<<<<< HEAD
 				<a href="https://github.com/dyazincahya/theme-wp-material-awesome">WP-theme-material</a> . 
-=======
-				<a href="https://github.com/dyazincahya/theme-wp-material">WP-theme-material</a> . 
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 				<a href="https://wordpress.org">Wordpress</a>
 			</p>
 		</div>

@@ -4,7 +4,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-lg-push-3 col-sm-10 col-sm-push-1">
-<<<<<<< HEAD
 					<?php 
 						if( is_single() || is_page() ){ 
 							the_title(); 
@@ -27,29 +26,11 @@
 							</div>
 						</form>
 					<?php } ?>
-=======
-					<h1 class="heading">
-						<?php 
-							if( is_single() || is_page() ){ 
-								the_title(); 
-							} else if( is_category() ){
-								single_cat_title();
-							} else if( is_author() ){
-								echo get_the_author(); 
-							} else if( is_tag() ){
-								single_tag_title();
-							} else {
-								bloginfo("name");
-							}
-						?>
-					</h1>
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="container">
-<<<<<<< HEAD
 		<nav class="tab-nav">
 			<ul class="nav nav-list">
 				<li class="active"><a class="waves-attach" data-toggle="tab" href="#standard-tab">
@@ -157,36 +138,6 @@
 				</div>
 			</div>
 		</div>
-=======
-		<section class="content-inner">
-			<div class="card-wrap">
-				<div class="row">
-					<?php
-						if( have_posts() ){
-					?>
-						<?php
-							while( have_posts() ){ the_post();
-								get_template_part('content');
-							}
-				 		?>
-				 		
-						<div class="row">
-							<div class="col-md-6">
-								<span class="pull-left"><?php previous_posts_link(); ?></span>
-							</div>
-							<div class="col-md-6">
-								<span class="pull-right"><?php next_posts_link(); ?></span>
-							</div>
-						</div>
-					<?php
-						} else {
-							echo "Tidak ada post";
-						}
-					?>
-				</div>
-			</div>
-		</selection>
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 	</div>
 </div>
 <?php get_footer(); ?>

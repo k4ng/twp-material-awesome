@@ -4,11 +4,7 @@ Theme URI: http://code.dokumentasi.org
 Author: Kang Cahya
 Author URI: http://kang-cahya.com/
 Description: CDO (CODE DOKUMENTASI ORG) material design theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
-<<<<<<< HEAD
 Version: 1.3 BETA
-=======
-Version: 1.0
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +16,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 .front-page{
-<<<<<<< HEAD
 	background-color: #FFFFFF;
 	color:#FFFFFF;
 	padding-top:100px;
@@ -54,12 +49,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:    #909;
 }
-=======
-	background-color: #3949ab;
-	color:#FFFFFF;
-	padding-top:100px;
-}
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 /****widget****/
 .widget { 
 	list-style:none;
@@ -72,7 +61,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font-weight:bold;
 }
 
-<<<<<<< HEAD
 .cat-item{
 	list-style: none;
 	padding:5px;
@@ -83,8 +71,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	color: #FFFFFF;
 }
 
-=======
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 .widget_recent_comments{ }
 
 .recentcomments{
@@ -114,15 +100,18 @@ span.front-avatar img.avatar{
 	width:100px;
 }
 
-<<<<<<< HEAD
+span.author-avatar img.avatar{
+	border-radius:50%;
+	height:60px;
+	width:60px;
+}
+
 span.paging{
 	padding-bottom:20px;
 }
 .paging a{
 	text-decoration: none;
 }
-=======
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
 /**** COMMENTS ***/
 .comment-author{
 	text-align: center;
@@ -154,7 +143,6 @@ div.sidebar_left{
 }
 
 /*** SINGLE PAGE ***/
-<<<<<<< HEAD
 .modal-img .wp-post-image{
 	float: none;
 	padding-right : 0px;
@@ -175,10 +163,3 @@ div.sidebar_left{
 .clear{
 	clear: both;
 }
-=======
-.wp-post-image{
-	float: left;
-	padding-right : 20px;\
-	clear: both;
-}
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8

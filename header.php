@@ -18,11 +18,9 @@
 		?> — 
 		<?php bloginfo('name');?>
 	</title>
-<<<<<<< HEAD
 	<?php wp_head();?>
-=======
 	<?php wp_head();?>	
->>>>>>> 815eeacd4c0545701d92c47552c4108cface0ae8
+
 </head>
 <body class="avoid-fout page-brand">
 	<div class="avoid-fout-indicator avoid-fout-indicator-fixed">
