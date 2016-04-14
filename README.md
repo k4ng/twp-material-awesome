@@ -1,7 +1,12 @@
 # theme-wp-material-awesome (GUT)
-Theme Wordpress "Material Design" Based on Google Material design
+Tema Wordpress "Material Desain" Berdasarkan desain Google Material. Tema ini di peruntuhkan untuk blog.
 
-Silahkan di download dan pasang, semoga bermanfaat. Jika ada kritik saran masukan kirim saja ke sini : [Kirim Pesan Sekarang](http://www.kang-cahya.com/p/contact-page.html#popup)
+## Instalasi
+- Unduh
+- Masuk ke halaman admin
+- Masuk ke menu apparance->theme
+- Klik "Add New Theme"
+- Lalu cari file tema yang telah di unduh tadi, klik upload.
 
 ## Fitur
 [Lihat Fitur](#)
@@ -12,5 +17,11 @@ Silahkan di download dan pasang, semoga bermanfaat. Jika ada kritik saran masuka
 ## Demo
 [Lihat Demo](http://wp-theme.dokumentasi.my.id/)
 
-## Kontributor
-[Lihat Kontributor](#)
+## Berkontribusi
+- Fork it!
+- Create your feature branch: git checkout -b my-new-feature
+- Commit your changes: git commit -am 'Add some feature'
+- Push to the branch: git push origin my-new-feature
+- Submit a pull request :D
+
+[Lihat Kontributor](https://github.com/dyazincahya/theme-wp-material-awesome/graphs/contributors)
