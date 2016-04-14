@@ -25,3 +25,6 @@ Tema Wordpress "Material Desain" Berdasarkan desain Google Material. Tema ini di
 - Submit a pull request :D
 
 [Lihat Kontributor](https://github.com/dyazincahya/theme-wp-material-awesome/graphs/contributors)
+
+## Kredit
+[Lihat Kredit](#)
