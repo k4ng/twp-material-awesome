@@ -3756,7 +3756,7 @@ wysihtml5.browser = (function() {
     },
     
     /**
-     * Substract one array from another
+     * Subtract one array from another
      *
      * @example
      *    wysihtml5.lang.array([1, 2, 3, 4]).without([3, 4]);
