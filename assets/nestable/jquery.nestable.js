@@ -381,7 +381,7 @@
                 }
                 // decrease horizontal level
                 if (mouse.distX < 0) {
-                    // we can't decrease a level if an item preceeds the current one
+                    // we can't decrease a level if an item precedes the current one
                     next = this.placeEl.next(opt.itemNodeName);
                     if (!next.length) {
                         parent = this.placeEl.parent();

@@ -42,7 +42,7 @@
         });
         CodeMirror.commands["selectAll"](editor);
 
-        //binding controlls
+        //binding controls
         $('.autoformat').click(function(){
             $this.autoFormatSelection(editor);
         });
