@@ -15,7 +15,7 @@ Tema Wordpress "Material Desain" Berdasarkan desain Google Material. Tema ini di
 [Lihat Log](#)
 
 ## Demo
-[Lihat Demo](https://dokumentasi.my.id/wp-theme)
+[Lihat Demo](http://wp-theme.dokumentasi.org)
 
 ## Berkontribusi
 - Fork it!
